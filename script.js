@@ -1,6 +1,5 @@
 let segundos = 0;
 let intervalo = null;
-
 const display = document.getElementById('display');
 
 function iniciar() {
@@ -9,6 +8,7 @@ function iniciar() {
     intervalo = setInterval(() => {
         segundos++;
         display.textContent = segundos;
+        console.log("contando:", segundos);
         }, 1000);
 }
 
