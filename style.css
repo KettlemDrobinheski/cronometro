@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'DS-DIGI.TTF';
     src: url('DS-DIGI.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -27,6 +29,9 @@ body {
 #display {
     font-family: 'DS-DIGI.TTF', sans-serif;
     font-size: 64px;
+    color: #fc003f;
+    text-shadow: 0 0 15px rgba(0, 255, 204, 0.7);
+    letter-spacing: 2px;
     font-weight: bold;
     margin-bottom: 30px;
 }
