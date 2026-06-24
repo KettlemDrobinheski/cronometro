@@ -6,7 +6,7 @@ const display = document.getElementById('display');
 function iniciar() {
     if (intervalo) return;
 
-    intervalo ; setInterval(() => {
+    intervalo = setInterval(() => {
         segundos++;
         display.textContent = segundos;
         }, 1000);
