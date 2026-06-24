@@ -22,7 +22,7 @@ function parar() {
     intervalo = null;
 }
 
-function resetar() {
+function zerar() {
     clearInterval(intervalo);
     intervalo = null;
     segundosTotais = 0;
@@ -31,4 +31,4 @@ function resetar() {
 }
 document.getElementById('btnIniciar').addEventListener('click', iniciar);
 document.getElementById('btnParar').addEventListener('click', parar);
-document.getElementById('btnReset').addEventListener('click', resetar);
+document.getElementById('btnZerar').addEventListener('click', zerar);
