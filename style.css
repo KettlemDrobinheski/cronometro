@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #da2745 0%, #16b4e9 100%);
+    font-family: Routhen Joykats, sans-serif;
+    color: #333;
+}
+
+.painel-cronometro {
+    background-color: rgba(30,30,30,0.9);
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    text-align: center;
+    color: white;
+}
+
+#display {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3 ease;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Annabel, serif;
+}
+
+#btnIniciar {
+    background-color: #8ad48d;
+    color: rgb(0, 0, 0);
+}
+
+#btnParar {
+    background-color: #dd635b;
+    color: rgb(0, 0, 0);
+}
+
+#btnReset {
+    background-color:rgb(157, 157, 243);
+    color:rgb(0, 0, 0)
+}
+
+#btnParar:hover {
+    background-color: #ffffff;
+}
