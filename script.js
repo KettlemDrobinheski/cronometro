@@ -17,5 +17,11 @@ function parar() {
     intervalo = null;
 }
 
+function resetar() {
+    parar();
+    segundos = 0;
+    display.textContent = "0";
+}
 document.getElementById('btnIniciar').addEventListener('click', iniciar);
 document.getElementById('btnParar').addEventListener('click', parar);
+document.getElementById('btnZerar').addEventListener('click', resetar);
