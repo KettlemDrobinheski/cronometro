@@ -23,7 +23,8 @@ function parar() {
 }
 
 function resetar() {
-    parar();
+    clearInterval(intervalo);
+    intervalo = null;
     segundosTotais = 0;
     display.textContent = "0:00:00";
 }
