@@ -27,6 +27,7 @@ function resetar() {
     intervalo = null;
     segundosTotais = 0;
     display.textContent = "0:00:00";
+    console.log("resetado");
 }
 document.getElementById('btnIniciar').addEventListener('click', iniciar);
 document.getElementById('btnParar').addEventListener('click', parar);
